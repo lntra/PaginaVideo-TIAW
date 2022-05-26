@@ -105,15 +105,15 @@ body{
 .comentarios_secao-grid{
     display: grid;
     grid-template-columns: 36px 110px auto auto auto auto ;
-    grid-template-rows: 18.5px 18.5px 30px;
+    grid-template-rows: 18.5px 18.5px 30px auto;
     row-gap: 1px;
     column-gap: 10px;
 }
 
 .comentarios_secao-grid2{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto ;
-    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: 36px 110px auto auto auto auto ;
+    grid-template-rows: 18.5px 18.5px 30px 30px auto;
     row-gap: 1px;
     column-gap: 10px;
 }
@@ -128,7 +128,7 @@ body{
 }
 
 .comentario_secao-texto{
-    grid-row: 3/3;
+    grid-row: 3/ 5;
     grid-column: 1/span 4;
     align-self: flex-end;
 }

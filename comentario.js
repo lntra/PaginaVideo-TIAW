@@ -32,7 +32,9 @@
                                       <vl class="linha-vertical"></vl>
                                     </div>  
     </ul> 
-              <li class="texto comentario_secao-texto">${valor}</li>                               
+      <div class="comentario_secao-texto">
+              <li class="texto">${valor}</li>              
+      </div>               
     `
 
     tarefa.innerHTML = conteudo
